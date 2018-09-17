@@ -8,11 +8,12 @@ int main(void)
     {
         sum=sum+k;
         k++;
+        printf ("%d sum- %2d\n", k, sum);
     }
-    printf ("%d\n", sum);
 
-    for (k=4; k>-1; k=k-1)
-    printf ("%d\n", k);
-
+    for (k=10; k>0; k--) {
+    printf ("%2d\n", k);
+    }
+    printf ("Blastoff!");
 }
 
